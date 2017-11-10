@@ -37,6 +37,6 @@ return false
 end
 
 def full? (board)
-  board.all? |space|
-    space == "X" || space == "O"
+  board.all? |i|
+    i == "X" || i == "O"
   end
