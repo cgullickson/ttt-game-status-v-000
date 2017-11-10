@@ -41,6 +41,6 @@ def full? (board)
   end
 
 def draw? (board)
-  if !won? && full?
+  if !won?(board) && full?(board)
   end
 end
